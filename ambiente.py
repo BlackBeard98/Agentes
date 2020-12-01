@@ -393,3 +393,9 @@ class Practico(Reactivo):
 #     #print("\\caption{"+f"Robot1  filas:10 columnas:10 suciedadX100:30 obstaculosX100:10 ninos:5  tiempo de cambio:{(i+1)}"+"}")
 #     #print("\\end{center} \\end{table}")
 
+a = Ambiente(int(sys.argv[1]),int(sys.argv[2]),int(sys.argv[3]),int(sys.argv[4]),int(sys.argv[5]),int(sys.argv[6]),Practico())
+a.start()
+if a.respuesta[1] == 1:
+    print("Todo Limpio")
+else:
+    print("Despedido")

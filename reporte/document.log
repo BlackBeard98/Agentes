@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2019.1.28)  1 DEC 2020 00:23
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2019.1.28)  1 DEC 2020 00:45
 entering extended mode
 **document.tex
 ("F:\Nueva carpeta (2)\Agentes\reporte\document.tex"
@@ -827,264 +827,268 @@ Package pdftex.def Info: images/índice.jpg used on input line 39.
 
 [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <F:/Nueva carpeta (2)/Ag
 entes/reporte/images/índice.jpg>]
-
-Package hyperref Warning: old toc file detected, not used; run LaTeX again.
-
+("F:\Nueva carpeta (2)\Agentes\reporte\document.toc")
 \tf@toc=\write5
-[2
+ [2
 
 
-] [3]
-Underfull \hbox (badness 10000) in paragraph at lines 90--140
+]
+Underfull \hbox (badness 10000) in paragraph at lines 84--89
+
+ []
+
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 92--142
 
  []
 
 
-Overfull \hbox (0.61183pt too wide) in paragraph at lines 90--140
+Overfull \hbox (0.61183pt too wide) in paragraph at lines 92--142
 \OT1/cmr/m/n/10 filas:10 colum-nas:10 su-ciedadX100:30 ob-stac-u-losX100:10 beb
 es:5 tiempo de cam-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--140
+Underfull \hbox (badness 10000) in paragraph at lines 92--142
 
  []
 
 
-Overfull \hbox (0.33405pt too wide) in paragraph at lines 90--140
+Overfull \hbox (0.33405pt too wide) in paragraph at lines 92--142
 \OT1/cmr/m/n/10 filas:10 colum-nas:10 su-ciedadX100:30 ob-stac-u-losX100:10 beb
 es:5 tiempo de cam-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--140
+Underfull \hbox (badness 10000) in paragraph at lines 92--142
 
  []
 
 
-Overfull \hbox (0.33405pt too wide) in paragraph at lines 90--140
+Overfull \hbox (0.33405pt too wide) in paragraph at lines 92--142
 \OT1/cmr/m/n/10 filas:10 colum-nas:10 su-ciedadX100:30 ob-stac-u-losX100:10 beb
 es:5 tiempo de cam-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--140
+Underfull \hbox (badness 10000) in paragraph at lines 92--142
 
  []
 
 
-Overfull \hbox (0.33405pt too wide) in paragraph at lines 90--140
+Overfull \hbox (0.33405pt too wide) in paragraph at lines 92--142
 \OT1/cmr/m/n/10 filas:10 colum-nas:10 su-ciedadX100:30 ob-stac-u-losX100:10 beb
 es:5 tiempo de cam-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--140
+Underfull \hbox (badness 10000) in paragraph at lines 92--142
 
  []
 
 
-Overfull \hbox (0.33405pt too wide) in paragraph at lines 90--140
+Overfull \hbox (0.33405pt too wide) in paragraph at lines 92--142
 \OT1/cmr/m/n/10 filas:10 colum-nas:10 su-ciedadX100:30 ob-stac-u-losX100:10 beb
 es:5 tiempo de cam-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--140
+Underfull \hbox (badness 10000) in paragraph at lines 92--142
 
  []
 
 
-Overfull \hbox (0.33405pt too wide) in paragraph at lines 90--140
+Overfull \hbox (0.33405pt too wide) in paragraph at lines 92--142
 \OT1/cmr/m/n/10 filas:10 colum-nas:10 su-ciedadX100:30 ob-stac-u-losX100:10 beb
 es:5 tiempo de cam-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--140
+Underfull \hbox (badness 10000) in paragraph at lines 92--142
 
  []
 
 
-Overfull \hbox (0.33405pt too wide) in paragraph at lines 90--140
+Overfull \hbox (0.33405pt too wide) in paragraph at lines 92--142
 \OT1/cmr/m/n/10 filas:10 colum-nas:10 su-ciedadX100:30 ob-stac-u-losX100:10 beb
 es:5 tiempo de cam-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--140
+Underfull \hbox (badness 10000) in paragraph at lines 92--142
 
  []
 
 
-Overfull \hbox (0.33405pt too wide) in paragraph at lines 90--140
+Overfull \hbox (0.33405pt too wide) in paragraph at lines 92--142
 \OT1/cmr/m/n/10 filas:10 colum-nas:10 su-ciedadX100:30 ob-stac-u-losX100:10 beb
 es:5 tiempo de cam-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--140
+Underfull \hbox (badness 10000) in paragraph at lines 92--142
 
  []
 
 
-Overfull \hbox (0.33405pt too wide) in paragraph at lines 90--140
+Overfull \hbox (0.33405pt too wide) in paragraph at lines 92--142
 \OT1/cmr/m/n/10 filas:10 colum-nas:10 su-ciedadX100:30 ob-stac-u-losX100:10 beb
 es:5 tiempo de cam-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--140
+Underfull \hbox (badness 10000) in paragraph at lines 92--142
 
  []
 
 
-Overfull \hbox (0.33405pt too wide) in paragraph at lines 90--140
+Overfull \hbox (0.33405pt too wide) in paragraph at lines 92--142
 \OT1/cmr/m/n/10 filas:10 colum-nas:10 su-ciedadX100:30 ob-stac-u-losX100:10 beb
 es:5 tiempo de cam-
  []
 
 [4]
-Overfull \hbox (0.33405pt too wide) in paragraph at lines 141--191
+Overfull \hbox (0.33405pt too wide) in paragraph at lines 143--193
 \OT1/cmr/m/n/10 filas:10 colum-nas:10 su-ciedadX100:30 ob-stac-u-losX100:10 beb
 es:5 tiempo de cam-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 141--191
+Underfull \hbox (badness 10000) in paragraph at lines 143--193
 
  []
 
 
-Overfull \hbox (0.33405pt too wide) in paragraph at lines 141--191
+Overfull \hbox (0.33405pt too wide) in paragraph at lines 143--193
 \OT1/cmr/m/n/10 filas:10 colum-nas:10 su-ciedadX100:30 ob-stac-u-losX100:10 beb
 es:5 tiempo de cam-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 141--191
+Underfull \hbox (badness 10000) in paragraph at lines 143--193
 
  []
 
 
-Overfull \hbox (0.33405pt too wide) in paragraph at lines 141--191
+Overfull \hbox (0.33405pt too wide) in paragraph at lines 143--193
 \OT1/cmr/m/n/10 filas:10 colum-nas:10 su-ciedadX100:30 ob-stac-u-losX100:10 beb
 es:5 tiempo de cam-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 141--191
+Underfull \hbox (badness 10000) in paragraph at lines 143--193
 
  []
 
 
-Overfull \hbox (0.33405pt too wide) in paragraph at lines 141--191
+Overfull \hbox (0.33405pt too wide) in paragraph at lines 143--193
 \OT1/cmr/m/n/10 filas:10 colum-nas:10 su-ciedadX100:30 ob-stac-u-losX100:10 beb
 es:5 tiempo de cam-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 141--191
+Underfull \hbox (badness 10000) in paragraph at lines 143--193
 
  []
 
 
-Overfull \hbox (0.33405pt too wide) in paragraph at lines 141--191
+Overfull \hbox (0.33405pt too wide) in paragraph at lines 143--193
 \OT1/cmr/m/n/10 filas:10 colum-nas:10 su-ciedadX100:30 ob-stac-u-losX100:10 beb
 es:5 tiempo de cam-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 141--191
+Underfull \hbox (badness 10000) in paragraph at lines 143--193
 
  []
 
 
-Overfull \hbox (0.33405pt too wide) in paragraph at lines 141--191
+Overfull \hbox (0.33405pt too wide) in paragraph at lines 143--193
 \OT1/cmr/m/n/10 filas:10 colum-nas:10 su-ciedadX100:30 ob-stac-u-losX100:10 beb
 es:5 tiempo de cam-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 141--191
+Underfull \hbox (badness 10000) in paragraph at lines 143--193
 
  []
 
 
-Overfull \hbox (0.33405pt too wide) in paragraph at lines 141--191
+Overfull \hbox (0.33405pt too wide) in paragraph at lines 143--193
 \OT1/cmr/m/n/10 filas:10 colum-nas:10 su-ciedadX100:30 ob-stac-u-losX100:10 beb
 es:5 tiempo de cam-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 141--191
+Underfull \hbox (badness 10000) in paragraph at lines 143--193
 
  []
 
 
-Overfull \hbox (0.33405pt too wide) in paragraph at lines 141--191
+Overfull \hbox (0.33405pt too wide) in paragraph at lines 143--193
 \OT1/cmr/m/n/10 filas:10 colum-nas:10 su-ciedadX100:30 ob-stac-u-losX100:10 beb
 es:5 tiempo de cam-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 141--191
+Underfull \hbox (badness 10000) in paragraph at lines 143--193
 
  []
 
 
-Overfull \hbox (0.33405pt too wide) in paragraph at lines 141--191
+Overfull \hbox (0.33405pt too wide) in paragraph at lines 143--193
 \OT1/cmr/m/n/10 filas:10 colum-nas:10 su-ciedadX100:30 ob-stac-u-losX100:10 beb
 es:5 tiempo de cam-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 141--191
+Underfull \hbox (badness 10000) in paragraph at lines 143--193
 
  []
 
 
-Overfull \hbox (0.33405pt too wide) in paragraph at lines 141--191
+Overfull \hbox (0.33405pt too wide) in paragraph at lines 143--193
 \OT1/cmr/m/n/10 filas:10 colum-nas:10 su-ciedadX100:30 ob-stac-u-losX100:10 beb
 es:5 tiempo de cam-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 141--191
+Underfull \hbox (badness 10000) in paragraph at lines 143--193
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 141--191
+Underfull \hbox (badness 10000) in paragraph at lines 143--193
 
  []
 
 [5]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 194.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 196.
  [6]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 194.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 196.
  ("F:\Nueva carpeta (2)\Agentes\reporte\document.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 194.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 194.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 196.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 196.
 Package rerunfilecheck Info: File `document.out' has not changed.
 (rerunfilecheck)             Checksum: E7435059323DB1B98F8C5BA4F89EFD6F;486.
  ) 
 Here is how much of TeX's memory you used:
- 17386 strings out of 494045
- 304526 string characters out of 3145966
- 397645 words of memory out of 3000000
- 20304 multiletter control sequences out of 15000+200000
- 11831 words of font info for 50 fonts, out of 3000000 for 9000
+ 17390 strings out of 494045
+ 304645 string characters out of 3145966
+ 398391 words of memory out of 3000000
+ 20305 multiletter control sequences out of 15000+200000
+ 12139 words of font info for 51 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  56i,9n,58p,420b,339s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C
-:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/P
-rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Prog
-ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on document.pdf (6 pages, 85014 bytes).
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C
+:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/
+Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Pro
+gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Progra
+m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on document.pdf (6 pages, 101235 bytes).
 PDF statistics:
- 107 PDF objects out of 1000 (max. 8388607)
+ 119 PDF objects out of 1000 (max. 8388607)
  29 named destinations out of 1000 (max. 500000)
  82 words of extra memory for PDF output out of 10000 (max. 10000000)
 

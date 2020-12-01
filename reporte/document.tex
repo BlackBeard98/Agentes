@@ -82,9 +82,11 @@ Este modelo tiene un car\'acter pr\'activo pues cada determinado tiempo el reeva
 
 \section{Ideas seguidas en la implementaci\'on}
 Se crearon 2 clases principales Ambiente y Robot(Reactivo, Practico), la primera tiene como objetivo conocer y guardar la ubicaci\'on del los objectos luego de los cambios generados por bebes, el robot, el cambio aleatorio propio del sistema, la segunda es el robot que
-contiene m\'etodos para la b\'usqueda del camino hacia el objectivo seg\'un las reglas definidas.\newline
+contiene m\'etodos para la b\'usqueda del camino hacia el objectivo seg\'un las reglas definidas usando un bfs.
 A cada Ambiente se le puede pasar el Robot junto con los datos de inicializaci\'on.
-Se comienza la simulaci\'on con el m\'etodo start() 
+Se comienza la simulaci\'on con el m\'etodo start(). 
+Se utiliz\'o python y se corre  python ambiente.py -filas- -columnas- -\%suciedad- -\%obstaculos- -no de bebes-  -tiempo-, el robot por defecto es el 1.\newline
+
 \section{Consideraciones}
 \subsection{Robot1}
 En estos ejemplos podemos ver como a medida que los ambientes es estabilizan se van opteniendo mejores resultados, ambas aproximaciones son bastante semejantes pero  para simulaciones en mayores dimensiones se nota un poco de mejor\'ia en el caso del 2do Robot. \\
