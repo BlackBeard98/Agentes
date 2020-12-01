@@ -1,0 +1,194 @@
+\documentclass[]{article}
+\usepackage{amsmath, amsthm, amsfonts}
+\usepackage{graphics}
+\usepackage{float}
+\usepackage{epsfig}
+\usepackage{amssymb}
+\usepackage{dsfont}
+\usepackage{latexsym}
+\usepackage{newlfont}
+\usepackage{epstopdf}
+\usepackage{amsthm}
+\usepackage{epsfig}
+\usepackage{caption}
+\usepackage{multirow}
+\usepackage[pdftex,breaklinks,colorlinks,linkcolor=black,citecolor=blue,urlcolor=blue]{hyperref}
+\usepackage[x11names,table]{xcolor}
+\usepackage{graphics}
+\usepackage{wrapfig}
+\usepackage[rflt]{floatflt}
+\usepackage{multicol}
+\usepackage{listings} \lstset {language = C++, basicstyle=\bfseries\ttfamily, keywordstyle = \color{blue}, commentstyle = \bf\color{green}}
+\usepackage{tikz}
+\usepackage{enumitem}
+
+\newcommand
+*
+{\itembolasazules}[1]{% bolas 3D
+	\footnotesize\protect\tikz[baseline=-3pt]%
+	\protect\node[scale=.5, circle, shade, ball
+	color=blue]{\color{white}\Large\bf#1};}
+%opening
+\title{Proyecto de DAA}
+\author{Karl Lewis Sosa Justiz}
+
+\begin{document}
+
+\begin{figure}
+	\maketitle
+	\hspace{3,5cm} \includegraphics[width=5cm]{images/índice.jpg} 
+\end{figure}
+
+
+\clearpage
+\tableofcontents
+\newpage
+\section{Principales Idea}
+
+\begin{enumerate}
+	\item  Los beb\'es y solo ellos producen suciedad
+	\item  Los bebe\'es no tienen objetivo y su comportamiento es aleatorio
+	\item  El objetivo del robot es mantener la casa limpia ($<60\% $ de suciedad) de no cumplirse es despedido.
+\end{enumerate}
+\section{Modelos}
+El ambiente puede ser o bien relativamente estable cambiando cada largos periodos de tiempo o bien s\'uper din\'amicos, por lo tanto los modelos de agentes presentados se ajustan a estas caracter\'isticas .
+\subsection{Modelo de Robot n\'umero 1}
+ 
+ \begin{enumerate}
+ 	\item  Si contiene un beb\'e ir a depositarlo es su prioridad.
+ 	\item  Si est\'a parado sobre una suciedad limpiarla.
+ 	\item  Ir a buscar el beb\'e m\'as cercano.
+ 	\item  Ir a la suciedad m\'as cercana
+
+\end{enumerate} 
+Este modelo es puramente reactivo ya que no existe una planificaci\'on de ning\'un tipo
+solo se basa en la premisa de que recoger a los beb\'es ayuda a controlar la suciedad y que si se encuentra una suciedad recogerla ayuda a estado de limpieza de la casa. Este modelo aunque simple funcionar\'a en ambientes donde hay mucho cambio y donde una planificaci\'on o buscar un objetivo  demasiado tiempo puede ser contraproducente. 
+
+\subsection{Modelo de Robot n\'umero 2}
+Este modelo va a alternar entre recoger suciedad y buscar a un beb\'e tiene como premisa no descuidar ninguna de ambos estados ya que muchos beb\'es implica m\'as suciedad.  
+\begin{enumerate}
+	\item  Si acabo de poner a un bebe en el corral
+		\begin{enumerate}
+			\item Si me encuentro una suciedad  recogerla.
+			\item Ir a la suciedad m\'as cercana .
+			\item Ir a buscar al bebe m\'as cercano
+		\end{enumerate}  
+	\item Seguir el procedimiento del Robot 1
+\end{enumerate}
+
+Este modelo tiene un car\'acter pr\'activo pues cada determinado tiempo el reeval\'ua su comportamiento independientemente del sistema.
+
+
+
+\section{Ideas seguidas en la implementaci\'on}
+Se crearon 2 clases principales Ambiente y Robot(Reactivo, Practico), la primera tiene como objetivo conocer y guardar la ubicaci\'on del los objectos luego de los cambios generados por bebes, el robot, el cambio aleatorio propio del sistema, la segunda es el robot que
+contiene m\'etodos para la b\'usqueda del camino hacia el objectivo seg\'un las reglas definidas.\newline
+A cada Ambiente se le puede pasar el Robot junto con los datos de inicializaci\'on.
+Se comienza la simulaci\'on con el m\'etodo start() 
+\section{Consideraciones}
+\subsection{Robot1}
+En estos ejemplos podemos ver como a medida que los ambientes es estabilizan se van opteniendo mejores resultados, ambas aproximaciones son bastante semejantes pero  para simulaciones en mayores dimensiones se nota un poco de mejor\'ia en el caso del 2do Robot. \\
+\newline
+filas:10 columnas:10 suciedadX100:30 obstaculosX100:10 bebes:5  tiempo de cambio:1
+\newline
+\%De Suciedad promedio:0.6146666666666665 Limpia y recoge:0 Es despedido 30
+\newline
+\newline
+filas:10 columnas:10 suciedadX100:30 obstaculosX100:10 beb\'es:5  tiempo de cambio:2
+\newline
+\%De Suciedad promedio:0.6159999999999999 Limpia y recoge:0 Es despedido 30
+\newline
+\newline
+filas:10 columnas:10 suciedadX100:30 obstaculosX100:10 beb\'es:5  tiempo de cambio:3
+\newline
+\%De Suciedad promedio:0.6159999999999998 Limpia y recoge:0 Es despedido 30
+\newline
+\newline
+filas:10 columnas:10 suciedadX100:30 obstaculosX100:10 beb\'es:5  tiempo de cambio:4
+\newline
+\%De Suciedad promedio:0.6139999999999998 Limpia y recoge:0 Es despedido 30
+\newline
+\newline
+filas:10 columnas:10 suciedadX100:30 obstaculosX100:10 beb\'es:5  tiempo de cambio:5
+\newline
+\%De Suciedad promedio:0.6129999999999999 Limpia y recoge:0 Es despedido 30
+\newline
+\newline
+filas:10 columnas:10 suciedadX100:30 obstaculosX100:10 beb\'es:5  tiempo de cambio:6
+\newline
+\%De Suciedad promedio:0.6116666666666664 Limpia y recoge:0 Es despedido 30
+\newline
+\newline
+filas:10 columnas:10 suciedadX100:30 obstaculosX100:10 beb\'es:5  tiempo de cambio:7
+\newline
+\%De Suciedad promedio:0.5299999999999998 Limpia y recoge:4 Es despedido 26
+\newline
+\newline
+filas:10 columnas:10 suciedadX100:30 obstaculosX100:10 beb\'es:5  tiempo de cambio:8
+\newline
+\%De Suciedad promedio:0.4286666666666666 Limpia y recoge:9 Es despedido 21
+\newline
+\newline
+filas:10 columnas:10 suciedadX100:30 obstaculosX100:10 beb\'es:5  tiempo de cambio:9
+\newline
+\%De Suciedad promedio:0.3463333333333333 Limpia y recoge:13 Es despedido 17
+\newline
+\newline
+filas:10 columnas:10 suciedadX100:30 obstaculosX100:10 beb\'es:5  tiempo de cambio:10
+\newline
+\%De Suciedad promedio:0.3063333333333334 Limpia y recoge:15 Es despedido 15
+\subsection{Robot2}
+filas:10 columnas:10 suciedadX100:30 obstaculosX100:10 beb\'es:5  tiempo de cambio:1
+\newline
+\%De Suciedad promedio:0.6153333333333332 Limpia y recoge:0 Es despedido 30
+\newline
+\newline
+filas:10 columnas:10 suciedadX100:30 obstaculosX100:10 beb\'es:5  tiempo de cambio:2
+\newline
+\%De Suciedad promedio:0.6149999999999998 Limpia y recoge:0 Es despedido 30
+\newline
+\newline
+filas:10 columnas:10 suciedadX100:30 obstaculosX100:10 beb\'es:5  tiempo de cambio:3
+\newline
+\%De Suciedad promedio:0.6123333333333332 Limpia y recoge:0 Es despedido 30
+\newline
+\newline
+filas:10 columnas:10 suciedadX100:30 obstaculosX100:10 beb\'es:5  tiempo de cambio:4
+\newline
+\%De Suciedad promedio:0.6136666666666665 Limpia y recoge:0 Es despedido 30
+\newline
+\newline
+filas:10 columnas:10 suciedadX100:30 obstaculosX100:10 beb\'es:5  tiempo de cambio:5
+\newline
+\%De Suciedad promedio:0.6126666666666664 Limpia y recoge:0 Es despedido 30
+\newline
+\newline
+filas:10 columnas:10 suciedadX100:30 obstaculosX100:10 beb\'es:5  tiempo de cambio:6
+\newline
+\%De Suciedad promedio:0.6113333333333332 Limpia y recoge:0 Es despedido 30
+\newline
+\newline
+filas:10 columnas:10 suciedadX100:30 obstaculosX100:10 beb\'es:5  tiempo de cambio:7
+\newline
+\%De Suciedad promedio:0.5706666666666664 Limpia y recoge:2 Es despedido 28
+\newline
+\newline
+filas:10 columnas:10 suciedadX100:30 obstaculosX100:10 beb\'es:5  tiempo de cambio:8
+\newline
+\%De Suciedad promedio:0.5506666666666665 Limpia y recoge:3 Es despedido 27
+\newline
+\newline
+filas:10 columnas:10 suciedadX100:30 obstaculosX100:10 beb\'es:5  tiempo de cambio:9
+\newline
+\%De Suciedad promedio:0.4486666666666666 Limpia y recoge:8 Es despedido 22
+\newline
+\newline
+filas:10 columnas:10 suciedadX100:30 obstaculosX100:10 beb\'es:5  tiempo de cambio:10
+\newline
+\%De Suciedad promedio:0.2846666666666667 Limpia y recoge:16 Es despedido 14
+\newline
+\newline
+
+
+
+\end{document}}
