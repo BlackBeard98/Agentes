@@ -1,6 +1,7 @@
 import random as r
 import math
 from collections import deque
+import sys
 
 class Elemento:
     def __init__(self,name):
@@ -392,4 +393,3 @@ class Practico(Reactivo):
 #     #print("\\caption{"+f"Robot1  filas:10 columnas:10 suciedadX100:30 obstaculosX100:10 ninos:5  tiempo de cambio:{(i+1)}"+"}")
 #     #print("\\end{center} \\end{table}")
 
-if __name__ == "main"
